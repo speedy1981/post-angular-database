@@ -37,7 +37,6 @@ ngOnDestroy(){
   
 }
 onDeletePost(index:number){
-  console.log("supprimer"+index)
   this.postService.deletePost(index);
 
 }
